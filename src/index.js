@@ -24,7 +24,7 @@ const Pulsator = styled.div`
     margin-top: -25%;
     border-radius: 100%;
     background-color: ${(props) => props.outerColor || "blue"};
-    animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 0.1) infinite;
+    animation: pulse-ring 1.25s cubic-bezier(0.215, 0.61, 0.355, 0.5) infinite;
     z-index: 1;
   }
 
